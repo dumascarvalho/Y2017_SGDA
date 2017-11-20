@@ -9,9 +9,9 @@ package projeto_sgda;
 public class Projeto_SGDA {
 
     public static void main(String[] args) {
-
-        
-        
-    }
-    
+        Aplicar_LookAndFeel.Aplicar();
+        JFrame_Login telaLogin = new JFrame_Login();
+        telaLogin.setVisible(true);        
+        telaLogin.pack();
+    }   
 }

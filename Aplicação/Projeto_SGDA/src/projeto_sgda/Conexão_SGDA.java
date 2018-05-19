@@ -16,7 +16,7 @@ public class Conexão_SGDA {
     public void conectar() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conexão = DriverManager.getConnection("jdbc:mysql://localhost/sgda?user=root");
+            conexão = DriverManager.getConnection("jdbc:mysql://localhost/database_sgda", "root", "092508");
         } catch (SQLException | NullPointerException | ClassNotFoundException ex) {
             System.out.println("\nExceção: " + ex);
         } 

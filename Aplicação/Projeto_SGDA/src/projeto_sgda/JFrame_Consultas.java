@@ -196,19 +196,19 @@ public class JFrame_Consultas extends javax.swing.JFrame {
     }
         
     private void rdoCursosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdoCursosActionPerformed
-        preencherTabela("cursos");
+        preencherTabela("curso");
     }//GEN-LAST:event_rdoCursosActionPerformed
 
     private void rdoFuncionariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdoFuncionariosActionPerformed
-        preencherTabela("funcionarios");
+        preencherTabela("funcionario");
     }//GEN-LAST:event_rdoFuncionariosActionPerformed
 
     private void rdoDisciplinasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdoDisciplinasActionPerformed
-        preencherTabela("disciplinas");
+        preencherTabela("disciplina");
     }//GEN-LAST:event_rdoDisciplinasActionPerformed
 
     private void rdoAlunosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdoAlunosActionPerformed
-        preencherTabela("alunos");
+        preencherTabela("aluno");
     }//GEN-LAST:event_rdoAlunosActionPerformed
 
     private void btnFecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFecharActionPerformed
